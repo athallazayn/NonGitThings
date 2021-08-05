@@ -1,0 +1,41 @@
+*//This is from Google
+
+
+the website to edit things: https://programmablesearchengine.google.com/cse/setup/basic?cx=5b70a2b80bc52742a
+
+How to add versions: 1.Make a Project/Gist 2.Name it "Seearchy_edit_(USERNAME)_(Version)"
+Tips: The "" isnt needed| Version is how many times you have edited it (eg. HELLO = 1.0| WEHELLO = 1.1)
+
+CODE (google says: Copy the following code, and paste it into a <div> element in your site's <body> section, where you want both of the search box and the search results to render. )
+<script async src="https://cse.google.com/cse.js?cx=5b70a2b80bc52742a"></script>
+<div class="gcse-search"></div>
+
+Example
+
+Mine: 
+<html>
+<head>
+<title>my site</title>
+<head>
+<body>
+<div1></div1>
+<script async src="https://cse.google.com/cse.js?cx=5b70a2b80bc52742a"></script>
+<div class="gcse-search"></div>
+<div2></div2>
+</body>
+</html>
+
+Google:
+
+<html>
+<head>
+<title>my site</title>
+...
+<head>
+<body>
+<div1>...</div1>
+<script async src="https://cse.google.com/cse.js?cx=5b70a2b80bc52742a"></script>
+<div class="gcse-search"></div>
+<div2>...</div2>
+</body>
+</html>
